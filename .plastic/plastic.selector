@@ -1,0 +1,4 @@
+repository "Gyroscope_Mobile_Project@PeeweeDAPLUMBER@cloud"
+  path "/"
+    br "/main"
+    co "/main"
