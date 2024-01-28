@@ -25,7 +25,6 @@ public class GyroControl : MonoBehaviour
         {
             Vector3 targetGravity = Input.acceleration * gravityScale;
             Physics.gravity = targetGravity; // Apply gravity change
-            ConstrainCubeToScreen();
         }
     }
 
@@ -48,15 +47,5 @@ public class GyroControl : MonoBehaviour
         wallBottom.transform.localScale = new Vector3(camSize.x + 1, 1, 1);
         wallLeft.transform.localScale = new Vector3(1, camSize.y + 1, 1);
         wallRight.transform.localScale = new Vector3(1, camSize.y + 1, 1);
-    }
-
-    //Probably isn't needed, but it doesn't seem to hurt
-    void ConstrainCubeToScreen()
-    {
-        var cam = Camera.main;
-        var viewportPosition = cam.WorldToViewportPoint(transform.position);
-        viewportPosition.x = Mathf.Clamp01(viewportPosition.x);
-        viewportPosition.y = Mathf.Clamp01(viewportPosition.y);
-        transform.position = cam.ViewportToWorldPoint(viewportPosition);
     }
 }
