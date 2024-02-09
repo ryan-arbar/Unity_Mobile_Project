@@ -1927,31 +1927,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tiers:
   - shapes:
-    - {fileID: 1901559596380486, guid: baebbc833ecda42dd8a75966c9f62420, type: 3}
+    - {fileID: 4945018358012345692, guid: b2eb4e083a615624797f1d057384b93e, type: 3}
+    - {fileID: 5514841325678977402, guid: e6b85fa355a27d84aba4776ab282ce64, type: 3}
     spawnProbability: 92
   - shapes:
-    - {fileID: 1408581670749804, guid: f9a741bb8762344c6a2a9cb4217ef728, type: 3}
-    spawnProbability: 3
+    - {fileID: 4945018358012345692, guid: a87da19bdcee96e4d979d2b643ca676d, type: 3}
+    - {fileID: 5514841325678977402, guid: dc48eed86b537e54ab62a50c462abe16, type: 3}
+    spawnProbability: 5
   - shapes:
-    - {fileID: 1856687845478954, guid: ab152f61198d54532ae39108e616ff59, type: 3}
-    spawnProbability: 2
-  - shapes:
-    - {fileID: 1647581975099426, guid: 835acc1a9ebe24c0fa3854c99346f9cd, type: 3}
+    - {fileID: 4945018358012345692, guid: 6113419d3d5b58a4194f656ef0805bf6, type: 3}
+    - {fileID: 5514841325678977402, guid: 7f406ff8fdea33e41a0bbc60d9b585b0, type: 3}
     spawnProbability: 1
   - shapes:
-    - {fileID: 1733945558841920, guid: 300f80108a63f48618cb4a1c8b8c1e86, type: 3}
+    - {fileID: 4945018358012345692, guid: 664ae4af64d901b45828fbc477e49dda, type: 3}
+    - {fileID: 5514841325678977402, guid: db035b569a2c5354d9924335942f9a34, type: 3}
     spawnProbability: 1
   - shapes:
-    - {fileID: 1610884164528438, guid: 5d1442ad8c11442988e0eca5d8af73f0, type: 3}
+    - {fileID: 4945018358012345692, guid: 355a454d2f8a3a349973b66a7c1c22c4, type: 3}
+    - {fileID: 5514841325678977402, guid: 9e3e75364af6d9c4f8ef5cbb3d8fd51b, type: 3}
     spawnProbability: 1
   - shapes:
-    - {fileID: 1014736895960144, guid: c91342f6e3afc48fd958056404ead345, type: 3}
-    spawnProbability: 1
-  - shapes:
-    - {fileID: 1377197793697218, guid: b4201d402613a4464b35c805dafcca62, type: 3}
-    spawnProbability: 1
-  - shapes:
-    - {fileID: 1526814149960808, guid: 7e4bfb3c6ba1d4bc4ba31d585abdae0f, type: 3}
+    - {fileID: 4945018358012345692, guid: b0a24f66ca62c764699b9d93f1d74883, type: 3}
+    - {fileID: 5514841325678977402, guid: 0cb2ade85a8097e4ba02229778b57b2a, type: 3}
     spawnProbability: 1
   initialSpawnInterval: 1.5
   minSpawnInterval: 0.1
